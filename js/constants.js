@@ -1,5 +1,5 @@
 apiBaseUrl = 'https://www.thebluealliance.com/api/v3';
-tbaApiKey = ''; // Get an API key at https://www.thebluealliance.com/request/apiwrite
+tbaApiKey = localStorage.get('apikey'); // Get an API key at https://www.thebluealliance.com/request/apiwrite
 myApi = "https://pit.filipkin.com"
 updateRate = 15; // Seconds between data refreshes
 teamId = 'frc247'; // Don't forget to prefix with "frc"
