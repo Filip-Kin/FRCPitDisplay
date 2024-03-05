@@ -1,0 +1,87 @@
+body { overflow: hidden }
+td, div { font-size: 1.45rem }
+#time-display {
+    display: inline-block;
+    font-size: 2.1rem;
+    margin-right: 15px;
+}
+#rank {
+    display: inline-block;
+    font-size: 2.1rem;;
+    margin-left: 15px;
+}
+#event {
+    display: inline-block;
+    font-size: 2.1rem;;
+    margin-left: 15px;
+}
+.fill-vertical {
+    height: calc(100vh - 66px);
+    margin-bottom: 0;
+}
+.fill-vertical .row { margin: 0 }
+.fill-vertical .col { height: 100% }
+.top-row { height: calc(0.71 * (100vh - 66px)) }
+.bottom-row { height: calc(0.29 * (100vh - 66px)) }
+.bottom-row .col { display: flex; justify-content: space-around }
+#player { margin-top: -1px }
+
+td, th { padding: 10px 5px; text-align: center }
+.match .us { font-weight: 700 }
+.match td { border-radius: 0 }
+.match td:nth-child(3), .match td:nth-child(4), .match td:nth-child(5) { background: #ff4141; color: #3d0000;
+}
+.match td:nth-child(6), .match td:nth-child(7), .match td:nth-child(8) { background: #37a5ff; color: #00243d;
+}
+.match.red-win td:nth-child(3), .match.red-win td:nth-child(4), .match.red-win td:nth-child(5) { background: #c62828 }
+.match.blue-win td:nth-child(6), .match.blue-win td:nth-child(7), .match.blue-win td:nth-child(8) { background: #1565c0 }
+h2 i {
+    font-size: 2.5rem !important;
+}
+.offline { padding: 0 }
+.offline h2 { margin: 0 }
+nav .input-field {
+    transform: translateY(-2px);
+    margin-left: 5px;
+}
+.select-wrapper input.select-dropdown,.select-wrapper input.select-dropdown:focus {
+    color: #fff;
+    border: 0;
+}
+select::-ms-expand {
+    display: none;
+}
+.dropdown-content li > a, .dropdown-content li > span { color: #000 }
+
+.row .col {
+    padding: 0;
+}
+
+.dark-mode {
+    background-color: #151515;
+    color: white;
+}
+
+:root {
+    --ranking-score: #4093ff;
+    --avg-match: #a477ff;
+    --avg-charging-station: #0f9d58;
+    --avg-auto: #9d0f0f;
+
+}
+
+a:link {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}

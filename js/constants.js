@@ -1,0 +1,9 @@
+apiBaseUrl = 'https://www.thebluealliance.com/api/v3';
+tbaApiKey = ''; // Get an API key at https://www.thebluealliance.com/request/apiwrite
+myApi = "https://pit.filipkin.com"
+updateRate = 15; // Seconds between data refreshes
+teamId = 'frc247'; // Don't forget to prefix with "frc"
+eventId = '2024mibro'; // Just go to the blue alliance page for the event, it's in the url ex: https://www.thebluealliance.com/event/2019mial2
+districtKey = '2024fim';
+resetTime = 9; // Time between match
+dark_mode = true;
