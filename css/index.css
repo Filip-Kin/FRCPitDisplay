@@ -1,4 +1,4 @@
-body { overflow: hidden }
+body { overflow: hidden; color: white }
 td, div { font-size: 1.45rem }
 #time-display {
     display: inline-block;
