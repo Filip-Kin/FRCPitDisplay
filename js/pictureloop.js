@@ -5,13 +5,15 @@ function delay(milliseconds){
 }
 
 const pictureloop = async () => {
-    const picsRaw = await fetch(myApi+"/getloop")
-    const pics = await picsRaw.json()
+    const pics = ['beartear.png'];
 
-    for (var i = 0; i < pics.length; i++) {
-        document.getElementById("loop").setAttribute("src", myApi+`/img/loop/${pics[i]}`)
-       await delay(5000)
-        if (i === pics.length-1) {
+    i = 0;
+    while (true) {
+        document.getElementById("loop").setAttribute("src", `/img/${pics[i]}`)
+        await delay(5000)
+        
+        i++;
+        if (i == pics.length) {
             i = 0;
         }
     }
